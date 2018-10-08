@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">完美食堂</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="school">北京化工大学</string>
+    <string name="klass">未知班级</string>
+    <string name="collage">信息科学与技术学院</string>
+    <string name="information">未知大学 未知学院 未知班级</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_like">猜你喜欢</string>
+    <string name="title_trynew">我来尝鲜</string>
+    <string name="title_rank">菜品榜单</string>
+    <string name="title_find">探索发现</string>
+</resources>

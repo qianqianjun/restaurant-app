@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:id="@+id/search_like"
+        android:background="@drawable/elem_list"
+        android:paddingTop="2dp"
+        android:paddingBottom="3dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_one"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_three"
+            android:text="搜 索"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <!--<WebView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/web_like"-->
+        <!--android:layout_below="@+id/search_like">-->
+    <!--</WebView>-->
+   <ListView
+       android:layout_width="match_parent"
+       android:id="@+id/dishlist"
+       android:layout_height="match_parent"
+       android:background="#5733cde5"
+       android:layout_below="@+id/search_like"
+       />
+
+</RelativeLayout>

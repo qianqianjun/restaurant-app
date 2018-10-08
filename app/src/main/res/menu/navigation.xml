@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_like"
+        android:icon="@drawable/ic_like"
+        android:title="@string/title_like" />
+
+    <item
+        android:id="@+id/navigation_trynew"
+        android:icon="@drawable/ic_trynew"
+        android:title="@string/title_trynew" />
+
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@drawable/ic_rank"
+        android:title="@string/title_rank" />
+
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_find" />
+
+</menu>

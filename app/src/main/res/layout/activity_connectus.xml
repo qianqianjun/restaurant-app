@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="联系我们"
+    android:textAlignment="center"
+    android:paddingTop="50dp"
+    android:textSize="35dp"
+    android:id="@+id/title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="电话：15801209263"
+        android:textSize="25sp"
+        android:paddingTop="30sp"
+        android:paddingLeft="20sp"
+        android:id="@+id/phone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:text="邮箱：mail.buct.edu.cn"
+        android:textSize="25sp"
+        android:paddingTop="10sp"
+        android:paddingLeft="20sp"
+        android:id="@+id/mail"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:text="地址：北京市朝阳区"
+        android:textSize="25sp"
+        android:paddingTop="10sp"
+        android:paddingLeft="20sp"
+        />
+</RelativeLayout>

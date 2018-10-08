@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qianqianjun.restaurant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="用户登录">
+
+        </activity>
+        <activity
+            android:name=".PersonalActivity"
+            android:label="个人中心" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="详情" />
+        <activity
+            android:name=".FragmentSetActivity"
+            android:label="完美食堂" />
+        <activity
+            android:name=".fragment.ContainerActivity"
+            android:label="完美食堂" />
+        <activity
+            android:name=".ConnectusActivity"
+            android:label="联系我们" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="提交反馈" />
+        <activity
+            android:name=".InitlikeActivity"
+            android:label="喜好设置" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation" />
+        <activity
+            android:name=".MessageActivity"
+            android:label="消息通知" />
+        <activity android:name=".DishdetailActivity"></activity>
+    </application>
+
+</manifest>

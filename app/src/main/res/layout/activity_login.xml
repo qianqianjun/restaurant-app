@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完 美 食 堂"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="20sp"
+        android:textColor="#f24907"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_one"
+        android:hint="用户名"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#ec5306"
+        android:textSize="20sp"
+        android:id="@+id/user"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_one"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textColor="#ec5306"
+        android:id="@+id/password"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button_three"
+        android:text="登  陆"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button_four"
+        android:text="注  册"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/register"/>
+</LinearLayout>

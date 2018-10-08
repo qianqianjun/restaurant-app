@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user"
+            android:title="个人中心" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="系统设置" />
+        <item
+            android:id="@+id/nav_replay"
+            android:icon="@drawable/ic_reply"
+            android:title="提交反馈" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_connect"
+            android:title="联系我们" />
+    </group>
+
+</menu>

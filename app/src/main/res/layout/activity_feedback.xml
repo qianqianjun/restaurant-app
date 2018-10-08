@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentarea"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:paddingBottom="20sp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/edit_one"
+            android:padding="10sp"
+            android:hint="输入您的姓名" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:layout_marginTop="10sp"
+            android:inputType="textPersonName"
+            android:background="@drawable/edit_one"
+            android:hint="输入您的电话" />
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:enabled="true"
+            android:layout_marginTop="10sp"
+            android:padding="10sp"
+            android:inputType="textImeMultiLine"
+            android:minLines="8"
+            android:maxLines="10"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:background="@drawable/edit_one"
+            android:hint="请输入信息的描述"
+            />
+        <Button
+            android:id="@+id/imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_four"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="上传图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/submit"
+        android:layout_below="@+id/contentarea"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitbtn"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_three"
+            android:text="提 交 反 馈"/>
+    </LinearLayout>
+</RelativeLayout>

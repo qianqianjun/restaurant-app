@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="我是一个Bfragment"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        />
+</LinearLayout>

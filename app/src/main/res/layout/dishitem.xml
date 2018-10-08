@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingBottom="20sp"
+    android:background="@drawable/item"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:id="@+id/image_description" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dish_name"
+                android:text="四川麻辣烫"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dish_price"
+                android:text="￥ 15"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dish_address"
+                android:text="紫竹三食堂2号窗口"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
